@@ -29,10 +29,11 @@ void PrintAmount(double[] array, string arr)
         }
         i++;
     }
-        
+
     sum = max - Math.Abs(min);
     Console.WriteLine();
     Console.WriteLine($"Массив чисел: [" + arr + "]");
+    Console.WriteLine($"Максимальное число массива: " + max + " Минимальное: " + min);
     Console.WriteLine($"Разница между максимальным и минимальным элементами массива: " + sum);
     Console.WriteLine();
 }
